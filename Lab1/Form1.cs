@@ -50,7 +50,7 @@ namespace Lab1
             double c = Math.Sqrt(Math.Cos(x * x) + Math.Sin(z * z));
             double u = a - b * c;
             // Виводимо результат у вікно
-            textBox4.Text += Environment.NewLine + "Результат U = " + u.ToString();
+            textBox4.Text += Environment.NewLine + "Рзультат функції U = " + u.ToString();
         }
     }
 }
